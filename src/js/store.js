@@ -105,7 +105,7 @@ const store = createStore({
         image: ''
       },
       {
-        number: '10',
+        number: 10,
         word: 'Tasse',
         image: ''
       },
@@ -212,6 +212,346 @@ const store = createStore({
       {
         number: 31,
         word: 'Matte',
+        image: ''
+      },
+      {
+        number: 32,
+        word: 'Mohn',
+        image: ''
+      },
+      {
+        number: 33,
+        word: 'Mumie',
+        image: ''
+      },
+      {
+        number: 34,
+        word: 'Meer',
+        image: ''
+      },
+      {
+        number: 35,
+        word: 'Mühle',
+        image: ''
+      },
+      {
+        number: 36,
+        word: 'Masche',
+        image: ''
+      },
+      {
+        number: 37,
+        word: 'Mac',
+        image: ''
+      },
+      {
+        number: 38,
+        word: 'Mafia',
+        image: ''
+      },
+      {
+        number: 39,
+        word: 'Mopp',
+        image: ''
+      },
+      {
+        number: 40,
+        word: 'Rose',
+        image: ''
+      },
+      {
+        number: 41,
+        word: 'Radio',
+        image: ''
+      },
+      {
+        number: 42,
+        word: 'Ruine',
+        image: ''
+      },
+      {
+        number: 43,
+        word: 'Arme',
+        image: ''
+      },
+      {
+        number: 44,
+        word: 'Rohr',
+        image: ''
+      },
+      {
+        number: 45,
+        word: 'Rolle',
+        image: ''
+      },
+      {
+        number: 46,
+        word: 'Rauch',
+        image: ''
+      },
+      {
+        number: 47,
+        word: 'Rock',
+        image: ''
+      },
+      {
+        number: 48,
+        word: 'Reif',
+        image: ''
+      },
+      {
+        number: 49,
+        word: 'Rabe',
+        image: ''
+      },
+      {
+        number: 50,
+        word: 'Lasso',
+        image: ''
+      },
+      {
+        number: 51,
+        word: 'Lotto',
+        image: ''
+      },
+      {
+        number: 52,
+        word: 'Leine',
+        image: ''
+      },
+      {
+        number: 53,
+        word: 'Lama',
+        image: ''
+      },
+      {
+        number: 54,
+        word: 'Leier',
+        image: ''
+      },
+      {
+        number: 55,
+        word: 'Lolli',
+        image: ''
+      },
+      {
+        number: 56,
+        word: 'Leiche',
+        image: ''
+      },
+      {
+        number: 57,
+        word: 'Lego',
+        image: ''
+      },
+      {
+        number: 58,
+        word: 'Lava',
+        image: ''
+      },
+      {
+        number: 59,
+        word: 'Laub',
+        image: ''
+      },
+      {
+        number: 60,
+        word: 'Schuss',
+        image: ''
+      },
+      {
+        number: 61,
+        word: 'Yeti',
+        image: ''
+      },
+      {
+        number: 62,
+        word: 'Scheune',
+        image: ''
+      },
+      {
+        number: 63,
+        word: 'Schaum',
+        image: ''
+      },
+      {
+        number: 64,
+        word: 'Schere',
+        image: ''
+      },
+      {
+        number: 65,
+        word: 'Schal',
+        image: ''
+      },
+      {
+        number: 66,
+        word: 'Scheich',
+        image: ''
+      },
+      {
+        number: 67,
+        word: 'Jacke',
+        image: ''
+      },
+      {
+        number: 68,
+        word: 'Schaf',
+        image: ''
+      },
+      {
+        number: 69,
+        word: 'Schippe',
+        image: ''
+      },
+      {
+        number: 70,
+        word: 'Kasse',
+        image: ''
+      },
+      {
+        number: 71,
+        word: 'Kitt',
+        image: ''
+      },
+      {
+        number: 72,
+        word: 'Kino',
+        image: ''
+      },
+      {
+        number: 73,
+        word: 'Kamm',
+        image: ''
+      },
+      {
+        number: 74,
+        word: 'Chor',
+        image: ''
+      },
+      {
+        number: 75,
+        word: 'Keule',
+        image: ''
+      },
+      {
+        number: 76,
+        word: 'Koch',
+        image: ''
+      },
+      {
+        number: 77,
+        word: 'Geige',
+        image: ''
+      },
+      {
+        number: 78,
+        word: 'Kaffee',
+        image: ''
+      },
+      {
+        number: 79,
+        word: 'Kappe',
+        image: ''
+      },
+      {
+        number: 80,
+        word: 'Fass',
+        image: ''
+      },
+      {
+        number: 81,
+        word: 'Fit',
+        image: ''
+      },
+      {
+        number: 82,
+        word: 'Föhn',
+        image: ''
+      },
+      {
+        number: 83,
+        word: 'WM',
+        image: ''
+      },
+      {
+        number: 84,
+        word: 'Feuer',
+        image: ''
+      },
+      {
+        number: 85,
+        word: 'Falle',
+        image: ''
+      },
+      {
+        number: 86,
+        word: 'Wäsche',
+        image: ''
+      },
+      {
+        number: 87,
+        word: 'Waage',
+        image: ''
+      },
+      {
+        number: 88,
+        word: 'Waffe',
+        image: ''
+      },
+      {
+        number: 89,
+        word: 'Wabe',
+        image: ''
+      },
+      {
+        number: 90,
+        word: 'Bus',
+        image: ''
+      },
+      {
+        number: 91,
+        word: 'Bett',
+        image: ''
+      },
+      {
+        number: 92,
+        word: 'Biene',
+        image: ''
+      },
+      {
+        number: 93,
+        word: 'Baum',
+        image: ''
+      },
+      {
+        number: 94,
+        word: 'Bär',
+        image: ''
+      },
+      {
+        number: 95,
+        word: 'Pool',
+        image: ''
+      },
+      {
+        number: 96,
+        word: 'Bauch',
+        image: ''
+      },
+      {
+        number: 97,
+        word: 'Puck',
+        image: ''
+      },
+      {
+        number: 98,
+        word: 'Puff',
+        image: ''
+      },
+      {
+        number: 99,
+        word: 'Baby',
         image: ''
       }
     ]
