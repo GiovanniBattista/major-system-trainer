@@ -1,0 +1,19 @@
+{
+  "cwd": "D:\\EigeneDateien\\Daniel\\Dokumente\\github\\major-system-trainer",
+  "type": [
+    "pwa"
+  ],
+  "name": "Major System Trainer",
+  "framework": "vue",
+  "template": "tabs",
+  "bundler": "vite",
+  "cssPreProcessor": "scss",
+  "theming": {
+    "customColor": false,
+    "color": "#007aff",
+    "darkTheme": false,
+    "iconFonts": true,
+    "fillBars": true
+  },
+  "customBuild": false
+}
