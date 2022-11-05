@@ -7,32 +7,32 @@ const store = createStore({
       {
         number: 0,
         word: 'Oase',
-        image: './assets/oase.png'
+        image: '/icons/oase.png'
       },
       {
         number: 1,
         word: 'Tee',
-        image: './assets/tee.png'
+        image: '/icons/tee.png'
       },
       {
         number: 2,
         word: 'Noah',
-        image: './assets/noah.png'
+        image: '/icons/noah.png'
       },
       {
         number: 3,
         word: 'Oma',
-        image: './assets/oma.png'
+        image: '/icons/oma.png'
       },
       {
         number: 4,
         word: 'Reh',
-        image: './assets/reh.png'
+        image: '/icons/reh.png'
       },
       {
         number: 5,
         word: 'Allee',
-        image: './assets/fahrbahn.png'
+        image: '/icons/fahrbahn.png'
       },
       {
         number: 6,
