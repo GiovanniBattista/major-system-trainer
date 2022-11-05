@@ -213,8 +213,7 @@ const store = createStore({
         number: 31,
         word: 'Matte',
         image: ''
-      },
-
+      }
     ]
   },
   getters: {
