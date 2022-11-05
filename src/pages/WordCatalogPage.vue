@@ -26,7 +26,7 @@ export default {
   name: 'WordCatalog',
 
   setup () {
-    const catalog = useStore('word_catalog')
+    const catalog = useStore('getWordCatalog')
 
     onMounted(() => {
       store.dispatch('getWordCatalog')
