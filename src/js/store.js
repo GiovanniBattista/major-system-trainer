@@ -37,37 +37,37 @@ const store = createStore({
       {
         number: 6,
         word: 'Ski',
-        image: ''
+        image: '/icons/ski.png'
       },
       {
         number: 7,
         word: 'Kuh',
-        image: ''
+        image: '/icons/kuh.png'
       },
       {
         number: 8,
         word: 'Ufo',
-        image: ''
+        image: '/icons/ufo.png'
       },
       {
         number: 9,
         word: 'Boa',
-        image: ''
+        image: '/icons/schlange.png'
       },
       {
         number: '00',
         word: 'Zeus',
-        image: ''
+        image: '/icons/zeus.png'
       },
       {
         number: '01',
         word: 'CD',
-        image: ''
+        image: '/icons/cd.png'
       },
       {
         number: '02',
         word: 'Zahn',
-        image: ''
+        image: '/icons/zahn.png'
       },
       {
         number: '03',
@@ -77,22 +77,22 @@ const store = createStore({
       {
         number: '04',
         word: 'Zorro',
-        image: ''
+        image: '/icons/zorro.png' // TODO swap with a better icon
       },
       {
         number: '05',
         word: 'Saal',
-        image: ''
+        image: '' // TODO did not found a proper icon
       },
       {
         number: '06',
         word: 'Seuche',
-        image: ''
+        image: '/icons/plague.png'
       },
       {
         number: '07',
         word: 'Socke',
-        image: ''
+        image: '/icons/sock.png'
       },
       {
         number: '08',

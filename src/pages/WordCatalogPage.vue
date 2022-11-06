@@ -81,9 +81,7 @@ export default {
 
   }
   .image {
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+    max-width: 512px;
+    margin: 0 auto;
   }
 </style>

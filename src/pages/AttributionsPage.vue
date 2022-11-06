@@ -21,6 +21,14 @@
         <a href="https://www.flaticon.com/de/kostenlose-icons/oma" title="oma Icons">Oma Icons erstellt von Freepik - Flaticon</a><br>
         <a href="https://www.flaticon.com/de/kostenlose-icons/hirsch" title="hirsch Icons">Hirsch Icons erstellt von smashingstocks - Flaticon</a><br>
         <a href="https://www.flaticon.com/de/kostenlose-icons/strasse" title="straße Icons">Straße Icons erstellt von geotatah - Flaticon</a><br>
+        <a href="https://www.flaticon.com/de/kostenlose-icons/jet-ski" title="jet ski Icons">Jet ski Icons erstellt von Nikita Golubev - Flaticon</a><br>
+        <a href="https://www.flaticon.com/de/kostenlose-icons/kuh" title="kuh Icons">Kuh Icons erstellt von Dighital - Flaticon</a><br>
+        <a href="https://www.flaticon.com/de/kostenlose-icons/ufo" title="ufo Icons">Ufo Icons erstellt von max.icons - Flaticon</a><br>
+        <a href="https://www.flaticon.com/de/kostenlose-icons/zeus" title="zeus Icons">Zeus Icons erstellt von Freepik - Flaticon</a><br>
+        <a href="https://www.flaticon.com/de/kostenlose-icons/cd" title="cd Icons">Cd Icons erstellt von Freepik - Flaticon</a><br>
+        <a href="https://www.flaticon.com/de/kostenlose-icons/gummi" title="gummi Icons">Gummi Icons erstellt von Freepik - Flaticon</a><br>
+        <a href="https://www.flaticon.com/free-icons/plague" title="plague icons">Plague icons created by surang - Flaticon</a><br>
+        <a href="https://www.flaticon.com/free-icons/sock" title="sock icons">Sock icons created by Freepik - Flaticon</a><br>
       </f7-block>
     </f7-page>
   </f7-popup>
