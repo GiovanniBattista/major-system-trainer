@@ -17,10 +17,14 @@
         <div class="number">
           {{ word_mapping.number }}
         </div>
-        <div class="word">
-          {{ word_mapping.word }}
+        <div class="container">
+          <div class="word">
+            {{ word_mapping.word }}
+          </div>
+          <div class="mnemonic">
+            {{ word_mapping.mnemonic }}
+          </div>
         </div>
-        <div class="mnemonic" />
         <img
           class="image"
           :src="word_mapping.image"
@@ -61,26 +65,30 @@ export default {
 
 <style lang="scss" scoped>
   .swiper {
-    height: 80%;
+    height: 100%;
   }
   .swiper-slide {
     text-align: center;
     box-sizing: border-box;
     height: 100%;
+    padding: 10px;
   }
   .number {
     font-weight: 500;
     font-size: 30px;
     line-height: 100px;
   }
+  .container {
+    height: 100px;
+  }
   .word {
-    font-size: 20px;
-    line-height: 100px;
+    font-size: 23px;
   }
   .mnemonic {
-
+    margin-top: 5px;
   }
   .image {
+    width: 100%;
     max-width: 512px;
     margin: 0 auto;
   }
