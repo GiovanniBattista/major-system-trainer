@@ -313,115 +313,115 @@ const store = createStore({
       {
         number: 41,
         word: 'Radio',
-        image: '',
-        mnemonic: 'kleines tragbares Transistorradio; Ghettoblaster'
+        image: '/icons/radio.png',
+        mnemonic: 'kleines tragbares Transistorradio'
       },
       {
         number: 42,
         word: 'Ruine',
-        image: '',
-        mnemonic: 'alte, verkommene Schlossruine'
+        image: '/icons/tempel.png',
+        mnemonic: 'alter, verkommener ägyptischer Tempelruine'
       },
       {
         number: 43,
         word: 'Armee',
-        image: '',
+        image: '/icons/terracotta-armee.png',
         mnemonic: 'grün gekleidete Soldaten marschieren im Gleichschritt'
       },
       {
         number: 44,
         word: 'Rohr',
-        image: '',
+        image: '/icons/rohre.png',
         mnemonic: 'Rohrpost wird verschickt'
       },
       {
         number: 45,
         word: 'Rolle',
-        image: '',
+        image: '/icons/geweberolle.png',
         mnemonic: 'Klopapierrolle'
       },
       {
         number: 46,
         word: 'Rauch',
-        image: '',
+        image: '/icons/rauch.png',
         mnemonic: 'beim Grillen aufsteigender gräulicher Rauch; Rauchzeichen'
       },
       {
         number: 47,
         word: 'Rock',
-        image: '',
+        image: '/icons/rocker.png',
         mnemonic: 'laute, wilde Musik; E-Gitarren werden zertrümmert'
       },
       {
         number: 48,
         word: 'Reif',
-        image: '',
+        image: '/icons/hula-hoop.png',
         mnemonic: 'Hula-Hoop-Reifen, den man um den Bauch kreisen läss'
       },
       {
         number: 49,
         word: 'Rabe',
-        image: '',
+        image: '/icons/rabe.png',
         mnemonic: 'schwarzes Stofftier mit orangem Schnabel und Krallen'
       },
       {
         number: 50,
         word: 'Lasso',
-        image: '',
+        image: '/icons/lasso.png',
         mnemonic: 'Cowboy schwingt lässig das Lasso und fängt Kalb ein'
       },
       {
         number: 51,
         word: 'Lotto',
-        image: '',
+        image: '/icons/lotto.png',
         mnemonic: 'Lottokugeln schwirren in Kugel herum und Lottofee zieht die Gewinnnummern'
       },
       {
         number: 52,
         word: 'Leine',
-        image: '',
-        mnemonic: 'Wäscheleine im frischen Sommerwind mit duftender Wäsche'
+        image: '/icons/leine.png',
+        mnemonic: 'Hundeleine'
       },
       {
         number: 53,
         word: 'Lama',
-        image: '',
+        image: '/icons/lama.png',
         mnemonic: 'Tier mit langem Fell; kann weit spucken'
       },
       {
         number: 54,
         word: 'Leier',
-        image: '',
+        image: '/icons/leierkasten.png',
         mnemonic: 'Leierkastenmann kurbelt und einfache Melodien ertönen; mit Affe auf Schulter'
       },
       {
         number: 55,
         word: 'Lolli',
-        image: '',
+        image: '/icons/lollies.png',
         mnemonic: 'süßer oranger Lolli mit Pfirsichgeschmack'
       },
       {
         number: 56,
         word: 'Leiche',
-        image: '',
+        image: '/icons/gerichtsmediziner.png',
         mnemonic: 'im Seziersaal; stechender Formalingeruch'
       },
       {
         number: 57,
         word: 'Lego',
-        image: '',
+        image: '/icons/blocke.png',
         mnemonic: 'bunte Legosteine zum Bauen von Autos, Häusern und Raumschiffen'
       },
       {
         number: 58,
         word: 'Lava',
-        image: '',
+        image: '/icons/vulkan.png',
         mnemonic: 'Vulkan spuckt rote, flüssige Lava aus; rinnt den Vulkan herunter und erstarrt dampfend'
       },
       {
         number: 59,
         word: 'Laub',
-        image: '',
+        image: '/icons/trockenes-blatt.png',
         mnemonic: 'vergilbte Blätter im Herbstwind; werden zu Haufen zusammengekehrt'
       },
       {
@@ -433,61 +433,61 @@ const store = createStore({
       {
         number: 61,
         word: 'Yeti',
-        image: '',
+        image: '/icons/yeti.png',
         mnemonic: 'der nie gesehene Bergmensch mit zotteligen Haaren am ganzen Körper'
       },
       {
         number: 62,
         word: 'Scheune',
-        image: '',
+        image: '/icons/scheune.png',
         mnemonic: 'aufgestapelte Strohballen; in Scheune ins Stroh springen'
       },
       {
         number: 63,
         word: 'Schaum',
-        image: '',
+        image: '/icons/schaumbad.png',
         mnemonic: 'gut duftendes Schaumbad'
       },
       {
         number: 64,
         word: 'Schere',
-        image: '',
+        image: '/icons/schere.png',
         mnemonic: 'große Gartenschere, um verblühte Blüten abzuschneiden'
       },
       {
         number: 65,
         word: 'Schal',
-        image: '',
+        image: '/icons/schal.png',
         mnemonic: 'selbst gestrickter, warmer Schal'
       },
       {
         number: 66,
         word: 'Scheich',
-        image: '',
+        image: '/icons/arabisch.png',
         mnemonic: 'Ölscheich mit weißem Umhang auf Kamel'
       },
       {
         number: 67,
         word: 'Jacke',
-        image: '',
+        image: '/icons/jacke.png',
         mnemonic: 'superwarme rote Snowboardjacke'
       },
       {
         number: 68,
         word: 'Schaf',
-        image: '',
+        image: '/icons/schaf.png',
         mnemonic: 'weiße, gekräuselte Wolle; «mähhh»'
       },
       {
         number: 69,
         word: 'Schippe',
-        image: '',
+        image: '/icons/shovel.png',
         mnemonic: 'breite Schaufel zum Schneeräumen'
       },
       {
         number: 70,
         word: 'Kasse',
-        image: '',
+        image: '/icons/kasse.png',
         mnemonic: 'alte mechanische Kasse; klingelt beim Aufmachen'
       },
       {
@@ -499,67 +499,67 @@ const store = createStore({
       {
         number: 72,
         word: 'Kino',
-        image: '',
+        image: '/icons/kino.png',
         mnemonic: 'großer Kinosaal mit weichen Sesseln'
       },
       {
         number: 73,
         word: 'Kamm',
-        image: '',
+        image: '/icons/kamm.png',
         mnemonic: 'Haarkamm'
       },
       {
         number: 74,
         word: 'Chor',
-        image: '',
+        image: '/icons/chor.png',
         mnemonic: 'Kirchenchor; Sänger vor Notenständern'
       },
       {
         number: 75,
         word: 'Keule',
-        image: '',
+        image: '/icons/keule.png',
         mnemonic: 'Fred Feuerstein mit Keule und seinem tollen Steinzeit-Auto'
       },
       {
         number: 76,
         word: 'Koch',
-        image: '',
+        image: '/icons/koch.png',
         mnemonic: '3-Hauben-Koch in Restaurant'
       },
       {
         number: 77,
         word: 'Geige',
-        image: '',
+        image: '/icons/geige.png',
         mnemonic: 'klassisches Instrument, das mit Bogen gespielt wird'
       },
       {
         number: 78,
         word: 'Kaffee',
-        image: '',
+        image: '/icons/kaffee.png',
         mnemonic: 'Kaffeebohnen in groben 25-Kilo-Säcken'
       },
       {
         number: 79,
         word: 'Kappe',
-        image: '',
-        mnemonic: 'schwarze, weiche, warme Wollmütze'
+        image: '/icons/baseball-kappe.png',
+        mnemonic: 'blaube Baseball-Kappe'
       },
       {
         number: 80,
         word: 'Fass',
-        image: '',
+        image: '/icons/fass.png',
         mnemonic: 'Fass Bier; Anzapfen beim Oktoberfest'
       },
       {
         number: 81,
         word: 'Fit',
-        image: '',
+        image: '/icons/fit.png',
         mnemonic: 'Liegestütze und Sit-ups in Fitnessstudio'
       },
       {
         number: 82,
         word: 'Föhn',
-        image: '',
+        image: '/icons/fohn.png',
         mnemonic: 'nach dem Haarewaschen'
       },
       {
@@ -571,85 +571,85 @@ const store = createStore({
       {
         number: 84,
         word: 'Feuer',
-        image: '',
+        image: '/icons/feuer.png',
         mnemonic: 'wärmendes, knisterndes Lagerfeuer'
       },
       {
         number: 85,
         word: 'Falle',
-        image: '',
+        image: '/icons/falle.png',
         mnemonic: 'Mäusefalle mit Käse und Speck als Köder'
       },
       {
         number: 86,
         word: 'Wäsche',
-        image: '',
+        image: '/icons/wasche.png',
         mnemonic: 'ein Berg voller Wäsche; Waschmaschine'
       },
       {
         number: 87,
         word: 'Waage',
-        image: '',
+        image: '/icons/waage.png',
         mnemonic: 'Personenwaage im Bad'
       },
       {
         number: 88,
         word: 'Waffe',
-        image: '',
+        image: '/icons/waffe.png',
         mnemonic: 'Sturmgewehr'
       },
       {
         number: 89,
         word: 'Wabe',
-        image: '',
+        image: '/icons/bienenwabe.png',
         mnemonic: 'Sechseck, aus Wachs, voll mit Honig'
       },
       {
         number: 90,
         word: 'Bus',
-        image: '',
+        image: '/icons/schulbus.png',
         mnemonic: 'Linienbus'
       },
       {
         number: 91,
         word: 'Bett',
-        image: '',
+        image: '/icons/bett.png',
         mnemonic: 'weiches, kuscheliges Bett'
       },
       {
         number: 92,
         word: 'Biene',
-        image: '',
+        image: '/icons/biene.png',
         mnemonic: 'gelb-schwarz gestreift; Bienenstich schwillt rot an'
       },
       {
         number: 93,
         word: 'Baum',
-        image: '',
+        image: '/icons/baum.png',
         mnemonic: 'einzelner Laubbaum mit großer Baumkrone'
       },
       {
         number: 94,
         word: 'Bär',
-        image: '',
+        image: '/icons/baer.png',
         mnemonic: 'brauner großer Bär mit Tatzen und Krallen'
       },
       {
         number: 95,
         word: 'Pool',
-        image: '',
+        image: '/icons/pool-party.png',
         mnemonic: 'Urlaub; am Pool liegen und Piña Colada schlürfen'
       },
       {
         number: 96,
-        word: 'Bauch',
-        image: '',
+        word: 'Bach',
+        image: '/icons/bach.png',
         mnemonic: 'leise plätschernder Gebirgsbach in schöner Umgebung'
       },
       {
         number: 97,
         word: 'Puck',
-        image: '',
+        image: '/icons/puck.png',
         mnemonic: 'schwarzer Eishockeypuck; dick eingemummte Eishockeymannschaft'
       },
       {
@@ -661,7 +661,7 @@ const store = createStore({
       {
         number: 99,
         word: 'Baby',
-        image: '',
+        image: '/icons/saugling.png',
         mnemonic: 'Baby im Kinderwagen mit bunter Rassel in der Hand'
       }
     ]
