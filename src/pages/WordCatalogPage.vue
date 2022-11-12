@@ -9,26 +9,29 @@
       </f7-nav-right>
     </f7-navbar>
 
-    <f7-swiper navigation>
+    <div class="input-container">
+      <f7-input
+        v-model:value="state.selectedNumber"
+        :input-style="{height: '50px', margin: '10px'}"
+        outline
+        label="Number"
+        type="number"
+        placeholder="Nummer von 0 - 99"
+        clear-button
+        min="0"
+        max="99"
+        @change="onSelectedNumberChanged($event.target.value)"
+      />
+    </div>
+    <f7-swiper
+      navigation
+      :active-index="state.selectedNumber"
+    >
       <f7-swiper-slide
         v-for="word_mapping in catalog"
         :key="word_mapping.number"
       >
-        <div class="number">
-          {{ word_mapping.number }}
-        </div>
-        <div class="container">
-          <div class="word">
-            {{ word_mapping.word }}
-          </div>
-          <div class="mnemonic">
-            {{ word_mapping.mnemonic }}
-          </div>
-        </div>
-        <img
-          class="image"
-          :src="word_mapping.image"
-        >
+        <number-to-word-card :word-mapping="word_mapping" />
       </f7-swiper-slide>
     </f7-swiper>
   </f7-page>
@@ -36,60 +39,39 @@
   <attributions-page />
 </template>
 
-<script>
-import store from '../js/store'
+<script setup>
+import { useStore, f7 } from 'framework7-vue'
+import { reactive } from 'vue'
 
-import { useStore } from 'framework7-vue'
-
-import { onMounted } from 'vue'
 import AttributionsPage from './AttributionsPage.vue'
+import NumberToWordCard from '../components/NumberToWordCard.vue'
 
-export default {
-  name: 'WordCatalog',
+const catalog = useStore('getWordCatalog')
+const state = reactive({ selectedNumber: 0 })
 
-  components: { AttributionsPage },
-
-  setup () {
-    const catalog = useStore('getWordCatalog')
-
-    onMounted(() => {
-      store.dispatch('getWordCatalog')
-    })
-
-    return {
-      catalog
-    }
+function onSelectedNumberChanged () {
+  let activeIndex = 0
+  if (state.selectedNumber.length === 2 && state.selectedNumber < 10) {
+    activeIndex = parseInt(state.selectedNumber[1]) + 10
+  } else if (state.selectedNumber < 10) {
+    activeIndex = state.selectedNumber
+  } else if (state.selectedNumber >= 10) {
+    activeIndex = parseInt(state.selectedNumber) + 10
   }
+
+  const swiper = f7.swiper.get('.swiper')
+  swiper.activeIndex = activeIndex
+  swiper.update()
 }
 </script>
 
 <style lang="scss" scoped>
-  .swiper {
-    height: 100%;
-  }
   .swiper-slide {
     text-align: center;
     box-sizing: border-box;
-    height: 100%;
     padding: 10px;
   }
-  .number {
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 100px;
-  }
-  .container {
-    height: 100px;
-  }
-  .word {
-    font-size: 23px;
-  }
-  .mnemonic {
-    margin-top: 5px;
-  }
-  .image {
-    width: 100%;
-    max-width: 512px;
-    margin: 0 auto;
+  .input-container {
+    margin: 10px;
   }
 </style>
